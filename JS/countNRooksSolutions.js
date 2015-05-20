@@ -22,10 +22,8 @@ window.countNRooksSolutions = function(n) {
 
       board.togglePiece(row, i);
     }
-
-
-  }
+  };
   findSolution(0);
-}
+};
 
 
