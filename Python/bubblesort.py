@@ -21,7 +21,7 @@
 #   end
 # end
 
-def bubble_sort(arr):
+def bubble_sort_naive(arr):
     for i in range(len(arr)-1, 0,-1):
         for j in range(i):
             if arr[j] > arr[j+1]:
@@ -33,3 +33,14 @@ arr = [54,26,93,17,77,31,44,55,20]
 bubble_sort(arr)
 print(arr)
   		
+def bubble_sort(arr):
+    count = 1
+    while count != 0:
+        count = 0
+        for j in range(len(arr)-1):
+            if arr[j] > arr[j+1]:
+                temp = arr[j]
+                arr[j] = arr[j+1]
+                arr[j+1] = temp
+                count += 1
+    print (arr)
