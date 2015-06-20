@@ -10,12 +10,16 @@
 		# Lastly, a common error is to forget to encrypt the last tokens. Make sure that encrypt("aabbcc") == [["a", 2], ["b", 2], ["c", 2]], not [["a", 2], ["b", 2]].
 
 def encrypt(string):
-	obj = {}
-	result = [string[0], 1]
+	result = []
+	current = [string[0], 0]
 
 	for letter in string:
-		if letter in obj
-			
-
+		if letter == current[0]:
+			current[1] += 1
+		else:
+			result.append(current)
+			current = [letter, 1]	
+	result.append(current)		
+	return result
 	
-encrypt("aaa")
+print (encrypt("aabbacccabb"))
