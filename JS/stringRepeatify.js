@@ -5,3 +5,5 @@ String.prototype.repeatify = function(n) {
   }
   return results.join(',');
 };
+
+console.log("string".repeatify(3));
