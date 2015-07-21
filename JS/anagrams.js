@@ -22,32 +22,37 @@ var anagrams = function(str) {
 
 
 var checkIfAnagram = function(str1, str2) {
-  var obj1 = {};
-  var obj2 = {};
+  var str1Letters = {};
+  var str2Letters = {};
 
   if (str1.length !== str2.length) {
     return false; 
   }
   for (var i = 0; i < str1.length; i++) {
-    if (obj1[str1[i]]) {
-      obj1[str1[i]] += 1;
+    if (str1Letters[str1[i]]) {
+      str1Letters[str1[i]] += 1;
     } else {
-      obj1[str1[i]] = 1;
+      str1Letters[str1[i]] = 1;
     }
-    if (obj2[str2[i]]) {
-      obj2[str2[i]] += 1;
+    if (str2Letters[str2[i]]) {
+      str2Letters[str2[i]] += 1;
     } else {
-      obj2[str2[i]] = 1;
+      str2Letters[str2[i]] = 1;
     }
   }
-  for (var key in obj1) {
-    if (obj1[key] !== obj2[key]) {
+  for (var key in str1Letters) {
+    if (str1Letters[key] !== str2Letters[key]) {
       return false;
     }
   }
   return true;
 };
 
+var checkIfAnagram2 = function(str1, str2) {
+  str1 = str1.split('').sort().join('');
+  str2 = str2.split('').sort().join('');
+  return str1 === str2;
+};
 
 
 
