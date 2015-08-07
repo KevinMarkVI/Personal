@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app='dataRpm'>
+  <head>
+    <meta charset="utf-8" />
+    <title>DataProblem</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  </head>
+  <body>
+    <h1>DataRPM</h1>
+
+  <div class='navigation'>
+    <ul>
+      <li><a href='#/spreadSheet' class='index'>Spread Sheet</a></li>
+      <li><a href='#/data' class='create'>Data</a></li>
+    </ul>
+  </div>
+  <div id='container'></div>
+    <div ng-view></div>
+
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="app.js"></script>
+    <script src="services/service.js"></script>
+    <script src="controllers/controllers.js"></script>
+  </body>
+</html>
