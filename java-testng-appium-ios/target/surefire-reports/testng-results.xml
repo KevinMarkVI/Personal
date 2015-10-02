@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.yourcompany.SampleSauceTest" duration-ms="236499" started-at="2015-10-01T09:48:47Z" finished-at="2015-10-01T09:52:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="236499" started-at="2015-10-01T09:48:47Z" finished-at="2015-10-01T09:52:43Z">
+      <class name="com.yourcompany.SampleSauceTest">
+        <test-method status="PASS" signature="addSumTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="addSumTest" duration-ms="235219" started-at="2015-10-01T09:48:47Z" finished-at="2015-10-01T09:52:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 6 Device]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sauce-storage:TestApp-iphoneos.app.zip]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="launchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="launchTest" duration-ms="31473" started-at="2015-10-01T09:48:47Z" finished-at="2015-10-01T09:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 6 Device]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sauce-storage:TestApp-iphoneos.app.zip]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="addSumTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="addSumTest" duration-ms="110648" started-at="2015-10-01T09:48:47Z" finished-at="2015-10-01T09:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://s3.amazonaws.com/appium/TestApp8.4.app.zip]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="launchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="launchTest" duration-ms="113911" started-at="2015-10-01T09:48:47Z" finished-at="2015-10-01T09:50:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://s3.amazonaws.com/appium/TestApp8.4.app.zip]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

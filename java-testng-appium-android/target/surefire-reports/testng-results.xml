@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.yourcompany.SampleSauceTest" duration-ms="155296" started-at="2015-10-01T08:57:07Z" finished-at="2015-10-01T08:59:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="155296" started-at="2015-10-01T08:57:07Z" finished-at="2015-10-01T08:59:42Z">
+      <class name="com.yourcompany.SampleSauceTest">
+        <test-method status="PASS" signature="launchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="launchTest" duration-ms="42818" started-at="2015-10-01T08:57:07Z" finished-at="2015-10-01T08:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S5 Device]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://saucelabs.com/example_files/ContactManager.apk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="addContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="addContactTest" duration-ms="76617" started-at="2015-10-01T08:57:07Z" finished-at="2015-10-01T08:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S5 Device]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://saucelabs.com/example_files/ContactManager.apk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="launchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="launchTest" duration-ms="50940" started-at="2015-10-01T08:57:07Z" finished-at="2015-10-01T08:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S4 Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://saucelabs.com/example_files/ContactManager.apk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="addContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="addContactTest" duration-ms="154369" started-at="2015-10-01T08:57:07Z" finished-at="2015-10-01T08:59:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S4 Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://saucelabs.com/example_files/ContactManager.apk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[portrait]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.4.11]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

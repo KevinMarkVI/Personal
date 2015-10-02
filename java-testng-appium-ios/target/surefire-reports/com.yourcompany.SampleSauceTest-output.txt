@@ -1,0 +1,5 @@
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNGMapConfigurator@64a294a6
+WebDriverIOSDriver: iOS on MAC (71e16b99e1e34806b1fbc462e38a2873)
+WebDriverIOSDriver: iOS on MAC (fdce9f9b37584dc0a13c000b279401a4)
+WebDriverIOSDriver: iOS on MAC (7bc40aed361648fab828e3c1e54c6e3f)
+WebDriverIOSDriver: iOS on MAC (5de6a1ff775b4035929f499a6e0d4e2a)

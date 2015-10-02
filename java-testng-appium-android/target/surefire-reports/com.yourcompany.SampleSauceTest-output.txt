@@ -1,0 +1,5 @@
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNGMapConfigurator@64a294a6
+WebDriverAndroidDriver: Android on LINUX (5b23f1d0b7994d8da5ad380536bd9d3c)
+WebDriverAndroidDriver: Android on LINUX (f5648a2b009b4d57aa8fa6c16bb06a60)
+WebDriverAndroidDriver: Android on LINUX (5e337df0a3834a839f09073aeb2f39b0)
+WebDriverAndroidDriver: Android on LINUX (0677ee06b24c48fcb4e3187ae7b79b02)
