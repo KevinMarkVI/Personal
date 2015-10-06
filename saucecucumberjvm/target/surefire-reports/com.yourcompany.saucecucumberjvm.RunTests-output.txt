@@ -1,0 +1,10 @@
+Feature: Sauce Labs Guinea Pig
+
+  Scenario: We want to click on the link and verify it takes us to a new page [90m# com/yourcompany/saucecucumberjvm/guineapig.feature:3[0m
+    [90mGiven [0m[90mI am on the Sauce Labs Guinea Pig test page[0m                         [90m# GuineaPigSteps.user_is_on_guinea_pig_page()[0m
+[1A    [32mGiven [0m[32mI am on the Sauce Labs Guinea Pig test page[0m                         [90m# GuineaPigSteps.user_is_on_guinea_pig_page()[0m
+    [90mWhen [0m[90mI click on the link[0m                                                  [90m# GuineaPigSteps.user_click_on_the_link()[0m
+[1A    [32mWhen [0m[32mI click on the link[0m                                                  [90m# GuineaPigSteps.user_click_on_the_link()[0m
+    [90mThen [0m[90mI should see a new page[0m                                              [90m# GuineaPigSteps.new_page_displayed()[0m
+[1A    [32mThen [0m[32mI should see a new page[0m                                              [90m# GuineaPigSteps.new_page_displayed()[0m
+
