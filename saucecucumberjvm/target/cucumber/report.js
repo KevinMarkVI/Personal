@@ -33,21 +33,21 @@ formatter.match({
   "location": "GuineaPigSteps.user_is_on_guinea_pig_page()"
 });
 formatter.result({
-  "duration": 601184691,
+  "duration": 367200330,
   "status": "passed"
 });
 formatter.match({
   "location": "GuineaPigSteps.user_click_on_the_link()"
 });
 formatter.result({
-  "duration": 366038598,
+  "duration": 401724083,
   "status": "passed"
 });
 formatter.match({
   "location": "GuineaPigSteps.new_page_displayed()"
 });
 formatter.result({
-  "duration": 31165627,
+  "duration": 57760128,
   "status": "passed"
 });
 });
